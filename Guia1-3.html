@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Validación</title>
+</head>
+
+<body bgcolor="#CCCCCC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<center><h1>Validación de datos</h1>
+<br><h2>Formulario</h2>
+<blockquote>
+  <form >
+    <table border="1">
+      <tr>
+        <td>Nombre:</td>
+        <td><label for="nombre"></label>
+          <input title="Ingrese un nombre" type="text" name="nombre" id="nombre" required></td>
+        </tr>
+              <tr>
+        <td>Contraseña:</td>
+        <td><label for="nombre"></label>
+          <input title="Ingrese una contraseña" type="password" name="nombre" id="nombre" required></td>
+        </tr>
+      <tr>
+        <td>Dirección:</td>
+        <td><label for="direccion"></label>
+          <input type="text" name="direccion" id="direccion"></td>
+        </tr>
+      <tr>
+        <td>Teléfono:</td>
+        <td><label for="telefono"></label>
+          <input type="tel" name="telefono" id="telefono"></td>
+        </tr>
+      <tr>
+        <td>Email:</td>
+        <td><label for="email"></label>
+          <input type="email" name="email" id="email" required></td>
+        </tr>
+        <tr>
+        <td>Fecha de ingreso</td>
+        <td><label for="fecha"></label>
+          <input type="datetime" name="fecha" id="fecha"></td>
+        </tr>
+        <tr>
+        	<td>Imagen de perfil</td>
+            <td><label for="imagen"></label>
+            <input type="file" accept="image/jpeg, image/png" name="imagen" id="imagen"></td>
+        </tr>                          
+      </table>
+    <p><input type="submit" name="guardar" id="guardar" value="Guardar">
+    
+      <input type="submit" name="cancelar" id="cancelar" value="Cancelar">
+    </p>
+  </form>
+</blockquote></center>
+</body>
+</html>
